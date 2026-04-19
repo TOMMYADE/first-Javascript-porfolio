@@ -6,22 +6,22 @@ function diceValue(){
     n = Math.floor(n) + 1;
 
 if ( n === 1){
-    document.querySelector(".img1").src ="./images/dice1.png";
+    document.querySelector(".img1").src ="./dice1.png";
 }
 else if ( n === 2){
-    document.querySelector(".img1").src ="./images/dice2.png";
+    document.querySelector(".img1").src ="./dice2.png";
 }
 else if ( n === 3){
-    document.querySelector(".img1").src ="./images/dice3.png";
+    document.querySelector(".img1").src ="./dice3.png";
 }
 else if ( n === 4){
-    document.querySelector(".img1").src ="./images/dice4.png";
+    document.querySelector(".img1").src ="./dice4.png";
 }
 else if ( n === 5){
-    document.querySelector(".img1").src ="./images/dice5.png";
+    document.querySelector(".img1").src ="./dice5.png";
 }
 else if ( n === 6){
-    document.querySelector(".img1").src ="./images/dice6.png";
+    document.querySelector(".img1").src ="./dice6.png";
 }
 
 var playerOne = n
@@ -31,22 +31,22 @@ var m = Math.random();
     m = Math.floor(m) + 1;
 
 if ( m === 1){
-    document.querySelector(".img2").src ="./images/dice1.png";
+    document.querySelector(".img2").src ="./dice1.png";
 }
 else if ( m === 2){
-    document.querySelector(".img2").src ="./images/dice2.png";
+    document.querySelector(".img2").src ="./dice2.png";
 }
 else if ( m === 3){
-    document.querySelector(".img2").src ="./images/dice3.png";
+    document.querySelector(".img2").src ="./dice3.png";
 }
 else if ( m === 4){
-    document.querySelector(".img2").src ="./images/dice4.png";
+    document.querySelector(".img2").src ="./dice4.png";
 }
 else if ( m === 5){
-    document.querySelector(".img2").src ="./images/dice5.png";
+    document.querySelector(".img2").src ="./dice5.png";
 }
 else if ( m === 6){
-    document.querySelector(".img2").src ="./images/dice6.png";
+    document.querySelector(".img2").src ="./dice6.png";
 }
 
 var playerTwo = m
